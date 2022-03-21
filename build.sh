@@ -11,17 +11,17 @@ sha256sum a.out >> hash.list
 
 # Build the Readme!
 
-echo "# Brief" > README.MD
-echo "A simple multithread application C++ starting point." >> README.MD
-echo " " >> README.MD
-echo "# Recent Build Info:" >> README.MD
-gcc -v >> README.MD
-date >> README.MD
-time >> README.MD
+echo "# Brief" > README.md
+echo "A simple multithread application C++ starting point." >> README.md
+echo " " >> README.md
+echo "# Recent Build Info:" >> README.md
+gcc -v >> README.md
+date >> README.md
+time >> README.md
 echo "## Hash List"
-cat hash.list >> README.MD
+cat hash.list >> README.md
 echo "## Git Status"
-git status >> README.MD
+git status >> README.md
 
 # Do Version Control Things!
 
