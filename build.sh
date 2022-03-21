@@ -15,12 +15,15 @@ echo "# Brief" > README.md
 echo "A simple multithread application C++ starting point." >> README.md
 echo " " >> README.md
 echo "# Recent Build Info:" >> README.md
+echo "## GCC Version" >> README.md
 gcc -v >> README.md
-date >> README.md
-time >> README.md
-echo "## Hash List"
+echo "## Build Date" >> README.md
+date >> README.md >> README.md
+echo "## Build Time" >> README.md
+time >> README.md >> README.md
+echo "## Hash List" >> README.md
 cat hash.list >> README.md
-echo "## Git Status"
+echo "## Git Status" >> README.md
 git status >> README.md
 
 # Do Version Control Things!
